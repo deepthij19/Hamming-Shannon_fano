@@ -4,16 +4,16 @@ Consider a discrete memoryless source with symbols and statistics {0.125, 0.0625
 Apply the Huffman and Shannon-Fano to this source. 
 Show that draw the tree diagram, the average code word length, Entropy, Variance, Redundancy, Efficiency.
 
-Aim
+## Aim
 
 To compute the Average Codeword Length, Entropy, Efficiency, Redundancy, and Variance for a discrete memoryless source using Huffman and Shannon-Fano coding based on the given probabilities and codeword lengths.
 
-Tools required
+## Tools required
 
 Python: A versatile programming language used for scientific computing and signal processing. NumPy: A powerful numerical library in Python for performing array-based operations and mathematical computations. Matplotlib: A plotting library for generating high-quality graphs and visualizations of data, essentialfor demonstrating the sampling process.
 
-Program
-
+## Program
+~~~~
 import numpy as np
 import math 
 L  = 0
@@ -53,12 +53,14 @@ print(f"Entropy is : {hs}")
 print(f"Efficiency is : {eff*100} %")
 print(f"Redudancy is : {red}")
 print(f"Variance is : {var}")
-
+~~~~
 Output
 
 ![image](https://github.com/user-attachments/assets/e3415c24-f0bd-4e06-bfdc-502b27ce425b)
 
 calculations:
+
+![image](https://github.com/user-attachments/assets/69a14ffb-a4d6-49e5-8a3b-d15b29efb5d0)
 
 ![image](https://github.com/user-attachments/assets/9160a9a4-da43-4307-bffd-0e6b940e9acb)
 
@@ -66,7 +68,7 @@ calculations:
 
 ![image](https://github.com/user-attachments/assets/62cbde9b-e8c7-4783-8514-df35632d1835)
 
-Result
+## Result
 
 For the given probabilities 0.125,0.0625,0.25,0.0625,0.125,0.125,0.25
 
